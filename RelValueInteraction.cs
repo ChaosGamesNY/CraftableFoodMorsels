@@ -21,6 +21,7 @@ namespace MonoChaos
 		}
 		public static void OnWorldLoadFinishedHandler(object sender, System.EventArgs e)
 		{
+			sSimInstantiatedListener = EventTracker.AddListener(EventTypeId.kSimInstantiated, new ProcessEventDelegate(OnSimInstantiated));
 			foreach (Sim sim in Sims3.Gameplay.Queries.GetObjects<Sim>())
 			{
 				if (sim != null)
@@ -29,6 +30,7 @@ namespace MonoChaos
 				}
 			}
 		}
+		private static EventListener sSimInstantiatedListener = null;
 		protected static ListenerAction OnSimInstantiated(Event e)
 		{
 			return ListenerAction.Keep;
