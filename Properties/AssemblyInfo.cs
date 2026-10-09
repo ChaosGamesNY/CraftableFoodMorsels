@@ -5,11 +5,11 @@ using Sims3.SimIFace;
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
 
-[assembly: AssemblyTitle ("RelValueInteraction")]
+[assembly: AssemblyTitle ("MonoChaos.CraftableFoodMorsels")]
 [assembly: AssemblyDescription ("")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
-[assembly: AssemblyProduct ("RelValueInteraction")]
+[assembly: AssemblyProduct ("MonoChaos.CraftableFoodMorsels")]
 [assembly: AssemblyCopyright ("Copyright ©  2026")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
